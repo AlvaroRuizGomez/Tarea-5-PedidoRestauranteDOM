@@ -151,13 +151,13 @@ function mostrarDetalle() {
 }
  
 // ******************** LOGICA **************************/
-// Total Pedido
-
 
 ejecucion()
 
 function ejecucion() {
-    muestraCarta()
+
+    // muestraCarta()
+
     // Entrada de platos al pedido
     eventListeners()
 }
