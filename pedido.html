@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <link rel="stylesheet" href="pedido.css">
+</head>
+
+<body>
+    <!------------ Inicio container ---------------->
+    <div class="container">
+        <!----- Inicio Cabecera ---->
+        <header class="header">
+            <div class="logo">
+                <img src="img/logo.jpeg" alt="">
+            </div>
+            
+            <nav class="navegador">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!----- Fin Cabecera ---->
+
+        <!----------- Inicio contenido --------------->
+        <section class="contenido">
+            <h1 class="h1">PEDIDO</h1>
+            <div class="input">
+                <input type="text" id="codPlato" placeholder="Codigo Plato">
+            </div>
+            <div class="descripcion">
+                <p id="descripDetalleCod" class="descriDetCod">
+                    Codigo Plato
+                </p>
+                <p id="descripDetalleNom" class="descriDetNom">
+                    Nombre
+                </p>
+                <p id="descripDetallePrecio" class="descriDetPrecio">
+                    Precio €
+                </p>
+            </div>
+            <div class="contenedorPedido">
+                <ul id="detPedido">
+
+                </ul>
+            </div>
+            <div class="totalCompra">
+                <p>T O T A L ........: €</p>
+                <ul id="totalPedidoMostrar">
+                </ul>
+            </div>
+        </section>
+        <!----------------- Fin contenido ------------>
+
+        <!----------- Inicio Footer ------------------>
+        <footer class="footer">
+            <div class="pie">Información</div>
+            <div class="info">@lvaro Ruiz WEB &copy;</div>
+        </footer>
+        <!----------- Inicio Footer ------------------>
+    </div>
+    <!----------------- Fin container ------------->
+
+
+    <!----------- SCRIPTS ---------->
+    <!-- <script src="carta.js"></script> -->
+    <script src="pedido.js"></script>
+</body>
+</html>
